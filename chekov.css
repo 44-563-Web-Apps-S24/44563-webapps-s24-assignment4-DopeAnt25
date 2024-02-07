@@ -1,0 +1,37 @@
+.speech{
+    font-family:sans-serif;
+    font-size:10%;
+    color: black;
+}
+.directions{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15%;
+    color: black;
+    background-color: beige;
+}
+.directions:hover{
+    background-color: burlywood;
+    color: darkslategray;
+
+}
+.name.yats{
+    color: red;
+}
+.name.gentlemen{
+    color: blue;
+}
+.name.groomsman{
+    color: lightblue;
+}
+.name.dashenka{
+    color: limegreen;
+}
+.name.aplombov{
+    color: darkgreen;
+}
+.name.zhigalov{
+    color: yellow;
+}
+.name.zmeyukina{
+    color: orange;
+}
