@@ -1,18 +1,25 @@
 .speech{
     font-family:sans-serif;
-    font-size:10%;
+    font-size:22px;
     color: black;
 }
 .directions{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 15%;
+    font-size: 24px;
     color: black;
     background-color: beige;
 }
 .directions:hover{
     background-color: burlywood;
     color: darkslategray;
-
+}
+.name{
+    font-size: 26px;
+}
+.name:hover {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7); 
+    border: 2px solid blue; 
+    filter: blur(2px);
 }
 .name.yats{
     color: red;
@@ -34,4 +41,19 @@
 }
 .name.zmeyukina{
     color: orange;
+}
+.character-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.character-table th, .character-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.character-table th {
+    background-color: #f2f2f2;
+}
+.character-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
